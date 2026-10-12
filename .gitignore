@@ -1,0 +1,133 @@
+# ==============================================================================
+# Environment Variables & Secrets (NEVER COMMIT)
+# ==============================================================================
+.env
+.env.*
+.env.example
+.env-example
+*.pem
+*.key
+*.crt
+secrets/
+
+# ==============================================================================
+# Python / FastAPI / Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / Coverage / Mypy / Ruff
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+# ==============================================================================
+# Database Dumps, Backups & Local Data
+# ==============================================================================
+*.sql.gz
+*.dump
+*.bak
+*dump*.sql
+*backup*.sql
+!sql/init.sql
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+redis_data/
+dump.rdb
+
+# ==============================================================================
+# Node.js / Frontend (if monorepo or co-located)
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.vite/
+dist-ssr/
+*.local
+
+# ==============================================================================
+# Logs & Runtime PIDs
+# ==============================================================================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+uvicorn.log
+
+# ==============================================================================
+# IDEs & Editors
+# ==============================================================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ==============================================================================
+# Operating System Files (Windows / macOS / Linux)
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==============================================================================
+# Temporary & Scratch Files
+# ==============================================================================
+tmp/
+temp/
+scratch/
+*.tmp
+*.bak
